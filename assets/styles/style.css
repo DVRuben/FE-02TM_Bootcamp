@@ -22,7 +22,7 @@ header{
     top: 50px;
     right: 20px;
     margin-right: 5px;
-    font-size: x-large;
+    font-size: large;
 }
 
 .items_nav{
@@ -64,16 +64,20 @@ header{
 
 .logo{
     width: 225px;
+    margin-left: 40px;
 }
 
 .page_info{
     margin: auto 0 auto 25px;
     list-style-type: none;
-
 }
 
 .italics{
     font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
 }
 
 li{
@@ -85,6 +89,60 @@ li>p{
     text-indent: 30px;
 }
 
+ul>li{
+    list-style-type: none;
+}
+
+ol{
+    margin-left: 30px;
+}
+
 p{
     font-size: large;
+    margin-left: 2px;
+}
+
+.info{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    margin: 50px;
+    margin-left: 100px;
+}
+
+.centrado{
+    align-self: center;
+}
+
+.centrar{
+    display: flex;
+    justify-content: center;
+}
+
+table{
+    margin-top: 10px;
+}
+
+th, td{
+    padding: 25px;
+    border: ridge;
+}
+
+.extra_info{
+    display: flex;
+    margin: 15px;
+}
+
+.extra_info_space{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista_letras{
+    list-style-type: lower-latin;
+}
+
+.circulo_vacio{
+    list-style-type: circle;
+    margin-left: 100px;
 }
